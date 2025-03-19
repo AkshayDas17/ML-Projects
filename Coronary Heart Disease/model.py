@@ -1,6 +1,6 @@
 
 # importing dependencies
-
+import joblib
 import streamlit as st
 
 # load model
