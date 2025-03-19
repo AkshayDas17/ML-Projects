@@ -1,10 +1,10 @@
 
 # importing dependencies
-import pickle
+import joblib
 import streamlit as st
 
 # load model
-Model=pickle.load(open('Model','rb'))
+Model=joblib.load('Model')
 # Header
 st.header('Coronary Heart Disease Prediction')
 # text
