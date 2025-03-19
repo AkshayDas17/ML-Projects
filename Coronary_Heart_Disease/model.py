@@ -4,7 +4,7 @@ import joblib
 import streamlit as st
 
 # load model
-Model=joblib.load('Model')
+Model=joblib.load('Model.pkl')
 # Header
 st.header('Coronary Heart Disease Prediction')
 # text
