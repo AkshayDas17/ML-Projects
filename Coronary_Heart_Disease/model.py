@@ -14,7 +14,7 @@ st.subheader('Ckeck your chance of having heart disease')
 st.subheader('')
 
 #inserting image
-st.image("Heart.jpg",width=500)
+st.image("Coronary_Heart_Disease/Heart.jpg",width=500)
 st.subheader('')
 
 # name 
